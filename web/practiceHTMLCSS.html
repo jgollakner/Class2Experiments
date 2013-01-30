@@ -68,9 +68,19 @@ and open the template in the editor.
             
         </script>
 
+        <p id="changeText">This Paragraph Tag Is HTML</p>
+
+        <script>
+            function textChange()
+            {
+                document.getElementById("changeText").innerHTML="JavaScript was executed to change this tag";                                   
+            }
+        </script>                                            
+
+        <button type="button" onClick="textChange()">Click To Execute JavaScript!</button>
 
         <p style="text-align: center"><img src="images/nfl.jpg" alt="NFL Logo" width="105" height="131"></p>
-        
+
 
         <table border="1" style="background-color:#FFFFFF" width="100%" cellpadding="1" cellspacing="1">
             <tr>
